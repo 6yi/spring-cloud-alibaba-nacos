@@ -1,0 +1,6 @@
+2020-01-13 00:08:55,106 INFO [capacityManagement] start correct usage
+
+2020-01-13 00:08:55,108 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-13 00:08:55,242 WARN clearConfigHistory start
+

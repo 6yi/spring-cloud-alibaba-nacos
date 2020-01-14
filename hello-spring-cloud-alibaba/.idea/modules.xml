@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-dependencies/hello-spring-cloud-alibaba-dependencies.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-alibaba-dependencies/hello-spring-cloud-alibaba-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider2/hello-spring-cloud-alibaba-nacos-provider.iml" filepath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider2/hello-spring-cloud-alibaba-nacos-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/hello-spring-cloud-alibaba-nacos-provider (2).iml" filepath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/hello-spring-cloud-alibaba-nacos-provider (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-alibaba-dubbo.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-alibaba-dubbo.iml" />
+    </modules>
+  </component>
+</project>

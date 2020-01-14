@@ -1,0 +1,644 @@
+2020-01-12 07:48:51,481 INFO Starting Nacos on lzhengPC with PID 12700 (E:\finshProject\spring-cloud-ext\nacos\target\nacos-server.jar started by 刘正 in E:\finshProject\spring-cloud-ext\nacos\bin)
+
+2020-01-12 07:48:51,483 INFO The following profiles are active: standalone
+
+2020-01-12 07:48:51,523 INFO Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2890c451: startup date [Sun Jan 12 07:48:51 CST 2020]; root of context hierarchy
+
+2020-01-12 07:48:52,982 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-01-12 07:48:53,008 INFO Starting service [Tomcat]
+
+2020-01-12 07:48:53,008 INFO Starting Servlet Engine: Apache Tomcat/8.5.34
+
+2020-01-12 07:48:53,019 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\Java\jdk-13.0.1\bin;E:\Program Files (x86)\WinSCP\;E:\Program Files (x86)\Dev-Cpp\MinGW64;E:\apache-maven-3.6.3\bin;E:\Program Files\nodejs\;D:\phpstudy_pro\Extensions\php\php7\;J:\composer;D:\phpstudy_pro\Extensions\MySQL8.0.12\bin;C:\Go\bin;E:\Program Files (x86)\python3.8\Scripts\;E:\Program Files (x86)\python3.8\;C:\Users\刘正\AppData\Local\Microsoft\WindowsApps;;E:\Program Files\JetBrains\CLion 2019.1.4\bin;C:\Users\刘正\AppData\Roaming\npm;C:\Users\刘正\AppData\Roaming\Composer\vendor\bin;C:\Users\刘正\AppData\Local\Programs\Fiddler;E:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin;;C:\Users\刘正\AppData\Local\Microsoft\WindowsApps;E:\Program Files\JetBrains\PhpStorm 2019.1.4\bin;;e:\Program Files\JetBrains\GoLand 2019.3\bin;;C:\Users\刘正\go\bin;.]
+
+2020-01-12 07:48:53,092 INFO Initializing Spring embedded WebApplicationContext
+
+2020-01-12 07:48:53,092 INFO Root WebApplicationContext: initialization completed in 1569 ms
+
+2020-01-12 07:48:53,296 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2020-01-12 07:48:53,296 INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+2020-01-12 07:48:53,297 INFO Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+2020-01-12 07:48:53,298 INFO Mapping filter: 'requestContextFilter' to: [/*]
+
+2020-01-12 07:48:53,298 INFO Mapping filter: 'authFilter' to urls: [/api/*, /raft/*]
+
+2020-01-12 07:48:53,298 INFO Mapping filter: 'distroFilter' to urls: [/*]
+
+2020-01-12 07:48:53,299 INFO Mapping filter: 'webFilter' to urls: [/*]
+
+2020-01-12 07:48:53,299 INFO Servlet dispatcherServlet mapped to [/]
+
+2020-01-12 07:48:55,079 WARN Autowired annotation is not supported on static fields: static org.springframework.context.ApplicationContext com.alibaba.nacos.naming.boot.SpringContext.context
+
+2020-01-12 07:48:55,179 INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+2020-01-12 07:48:55,339 INFO Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2890c451: startup date [Sun Jan 12 07:48:51 CST 2020]; root of context hierarchy
+
+2020-01-12 07:48:55,404 INFO Mapped "{[/v1/console/health/liveness],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.alibaba.nacos.console.controller.HealthController.liveness()
+
+2020-01-12 07:48:55,405 INFO Mapped "{[/v1/console/health/readiness],methods=[GET]}" onto public org.springframework.http.ResponseEntity com.alibaba.nacos.console.controller.HealthController.readiness(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,408 INFO Mapped "{[/v1/console/namespaces],methods=[GET],params=[show=all]}" onto public com.alibaba.nacos.console.model.NamespaceAllInfo com.alibaba.nacos.console.controller.NamespaceController.getNamespace(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+
+2020-01-12 07:48:55,409 INFO Mapped "{[/v1/console/namespaces],methods=[PUT]}" onto public java.lang.Boolean com.alibaba.nacos.console.controller.NamespaceController.editNamespace(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String) throws com.alibaba.nacos.config.server.exception.NacosException
+
+2020-01-12 07:48:55,409 INFO Mapped "{[/v1/console/namespaces],methods=[POST]}" onto public java.lang.Boolean com.alibaba.nacos.console.controller.NamespaceController.createNamespace(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String) throws com.alibaba.nacos.config.server.exception.NacosException
+
+2020-01-12 07:48:55,410 INFO Mapped "{[/v1/console/namespaces],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.RestResult<java.util.List<com.alibaba.nacos.console.model.Namespace>> com.alibaba.nacos.console.controller.NamespaceController.getNamespaces(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2020-01-12 07:48:55,410 INFO Mapped "{[/v1/console/namespaces],methods=[DELETE]}" onto public java.lang.Boolean com.alibaba.nacos.console.controller.NamespaceController.deleteConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws com.alibaba.nacos.config.server.exception.NacosException
+
+2020-01-12 07:48:55,412 INFO Mapped "{[/v1/cs/capacity],methods=[POST]}" onto public com.alibaba.nacos.config.server.model.RestResult<java.lang.Boolean> com.alibaba.nacos.config.server.controller.CapacityController.updateCapacity(javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)
+
+2020-01-12 07:48:55,413 INFO Mapped "{[/v1/cs/capacity],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.RestResult<com.alibaba.nacos.config.server.model.capacity.Capacity> com.alibaba.nacos.config.server.controller.CapacityController.getCapacity(javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+
+2020-01-12 07:48:55,414 INFO Mapped "{[/v1/cs/communication/watcherConfigs],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.SampleResult com.alibaba.nacos.config.server.controller.CommunicationController.getSubClientConfigByIp(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,org.springframework.ui.ModelMap)
+
+2020-01-12 07:48:55,416 INFO Mapped "{[/v1/cs/communication/dataChange],methods=[GET]}" onto public java.lang.Boolean com.alibaba.nacos.config.server.controller.CommunicationController.notifyConfigInfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+2020-01-12 07:48:55,416 INFO Mapped "{[/v1/cs/communication/configWatchers],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.SampleResult com.alibaba.nacos.config.server.controller.CommunicationController.getSubClientConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.ModelMap)
+
+2020-01-12 07:48:55,418 INFO Mapped "{[/v1/cs/configs/listener],methods=[POST]}" onto public void com.alibaba.nacos.config.server.controller.ConfigController.listener(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+
+2020-01-12 07:48:55,418 INFO Mapped "{[/v1/cs/configs/listener],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.GroupkeyListenserStatus com.alibaba.nacos.config.server.controller.ConfigController.getListeners(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,int) throws java.lang.Exception
+
+2020-01-12 07:48:55,419 INFO Mapped "{[/v1/cs/configs],methods=[GET]}" onto public void com.alibaba.nacos.config.server.controller.ConfigController.getConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,javax.servlet.ServletException,com.alibaba.nacos.config.server.exception.NacosException
+
+2020-01-12 07:48:55,420 INFO Mapped "{[/v1/cs/configs/catalog],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.RestResult<com.alibaba.nacos.config.server.model.ConfigAdvanceInfo> com.alibaba.nacos.config.server.controller.ConfigController.getConfigAdvanceInfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+
+2020-01-12 07:48:55,420 INFO Mapped "{[/v1/cs/configs],methods=[POST]}" onto public java.lang.Boolean com.alibaba.nacos.config.server.controller.ConfigController.publishConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws com.alibaba.nacos.config.server.exception.NacosException
+
+2020-01-12 07:48:55,421 INFO Mapped "{[/v1/cs/configs],methods=[GET],params=[search=blur]}" onto public com.alibaba.nacos.config.server.model.Page<com.alibaba.nacos.config.server.model.ConfigInfo> com.alibaba.nacos.config.server.controller.ConfigController.fuzzySearchConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+
+2020-01-12 07:48:55,421 INFO Mapped "{[/v1/cs/configs],methods=[DELETE],params=[beta=true]}" onto public com.alibaba.nacos.config.server.model.RestResult<java.lang.Boolean> com.alibaba.nacos.config.server.controller.ConfigController.stopBeta(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+
+2020-01-12 07:48:55,422 INFO Mapped "{[/v1/cs/configs],methods=[GET],params=[beta=true]}" onto public com.alibaba.nacos.config.server.model.RestResult<com.alibaba.nacos.config.server.model.ConfigInfo4Beta> com.alibaba.nacos.config.server.controller.ConfigController.queryBeta(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+
+2020-01-12 07:48:55,422 INFO Mapped "{[/v1/cs/configs],methods=[GET],params=[search=accurate]}" onto public com.alibaba.nacos.config.server.model.Page<com.alibaba.nacos.config.server.model.ConfigInfo> com.alibaba.nacos.config.server.controller.ConfigController.searchConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+
+2020-01-12 07:48:55,423 INFO Mapped "{[/v1/cs/configs],methods=[GET],params=[show=all]}" onto public com.alibaba.nacos.config.server.model.ConfigAllInfo com.alibaba.nacos.config.server.controller.ConfigController.detailConfigInfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String) throws com.alibaba.nacos.config.server.exception.NacosException
+
+2020-01-12 07:48:55,424 INFO Mapped "{[/v1/cs/configs],methods=[DELETE]}" onto public java.lang.Boolean com.alibaba.nacos.config.server.controller.ConfigController.deleteConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws com.alibaba.nacos.config.server.exception.NacosException
+
+2020-01-12 07:48:55,426 INFO Mapped "{[/v1/cs/health],methods=[GET]}" onto public java.lang.String com.alibaba.nacos.config.server.controller.HealthController.getHealth()
+
+2020-01-12 07:48:55,426 INFO Mapped "{[/v1/cs/history],methods=[GET],params=[search=accurate]}" onto public com.alibaba.nacos.config.server.model.Page<com.alibaba.nacos.config.server.model.ConfigHistoryInfo> com.alibaba.nacos.config.server.controller.HistoryController.listConfigHistory(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,org.springframework.ui.ModelMap)
+
+2020-01-12 07:48:55,427 INFO Mapped "{[/v1/cs/history],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.ConfigHistoryInfo com.alibaba.nacos.config.server.controller.HistoryController.getConfigHistoryInfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.Long,org.springframework.ui.ModelMap)
+
+2020-01-12 07:48:55,428 INFO Mapped "{[/v1/cs/listener],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.GroupkeyListenserStatus com.alibaba.nacos.config.server.controller.ListenerController.getAllSubClientConfigByIp(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,boolean,java.lang.String,int,org.springframework.ui.ModelMap) throws java.lang.Exception
+
+2020-01-12 07:48:55,428 INFO Mapped "{[/v1/cs/ops/localCache],methods=[POST]}" onto public java.lang.String com.alibaba.nacos.config.server.controller.OpsController.updateLocalCacheFromStore(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2020-01-12 07:48:55,429 INFO Mapped "{[/v1/ns/catalog/instanceList]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.controllers.CatalogController.instanceList(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,430 INFO Mapped "{[/v1/ns/catalog/services],methods=[GET]}" onto public java.util.List<com.alibaba.nacos.naming.pojo.ServiceDetailInfo> com.alibaba.nacos.naming.controllers.CatalogController.listDetail(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,430 INFO Mapped "{[/v1/ns/catalog/serviceList]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.controllers.CatalogController.serviceList(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,431 INFO Mapped "{[/v1/ns/catalog/serviceDetail]}" onto public com.alibaba.nacos.naming.view.ServiceDetailView com.alibaba.nacos.naming.controllers.CatalogController.serviceDetail(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,432 INFO Mapped "{[/v1/ns/cluster/update || /v1/ns/cluster/add],methods=[POST]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.ClusterController.update(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,437 INFO Mapped "{[/v1/ns/instance/update || /v1/ns/instance],methods=[POST]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.InstanceController.update(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,438 INFO Mapped "{[/v1/ns/instance],methods=[PUT]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.InstanceController.register(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,438 INFO Mapped "{[/v1/ns/instances || /v1/ns/instance/list],methods=[GET]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.controllers.InstanceController.queryList(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,439 INFO Mapped "{[/v1/ns/instance],methods=[DELETE]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.InstanceController.deregister(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,440 INFO Mapped "{[/v1/ns/instance],methods=[GET]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.controllers.InstanceController.queryDetail(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,440 INFO Mapped "{[/v1/ns/metrics]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.metrics(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,441 INFO Mapped "{[/v1/ns/pushState]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.pushState(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,441 INFO Mapped "{[/v1/ns/getVersion]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getVersion(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+
+2020-01-12 07:48:55,442 INFO Mapped "{[/v1/ns/dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.dom(javax.servlet.http.HttpServletRequest) throws com.alibaba.nacos.naming.exception.NacosException
+
+2020-01-12 07:48:55,443 INFO Mapped "{[/v1/ns/reCalculateCheckSum4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.reCalculateCheckSum4Dom(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,443 INFO Mapped "{[/v1/ns/getResponsibleServer4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getResponsibleServer4Dom(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,444 INFO Mapped "{[/v1/ns/getHealthyServerList]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getHealthyServerList(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,446 INFO Mapped "{[/v1/ns/ip4Dom2]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.ip4Dom2(javax.servlet.http.HttpServletRequest) throws com.alibaba.nacos.naming.exception.NacosException
+
+2020-01-12 07:48:55,446 INFO Mapped "{[/v1/ns/regService]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.regService(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,447 INFO Mapped "{[/v1/ns/ip4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.ip4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,447 INFO Mapped "{[/v1/ns/deRegService]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.deRegService(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,448 INFO Mapped "{[/v1/ns/srvIPXT]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.srvIPXT(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,448 INFO Mapped "{[/v1/ns/domCount]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.domCount(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,448 INFO Mapped "{[/v1/ns/rt4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.rt4Dom(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,449 INFO Mapped "{[/v1/ns/regDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.regDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,449 INFO Mapped "{[/v1/ns/clientBeat]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.clientBeat(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,450 INFO Mapped "{[/v1/ns/updateDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.updateDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,450 INFO Mapped "{[/v1/ns/onAddIP4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.onAddIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,451 INFO Mapped "{[/v1/ns/getDomsByIP]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getDomsByIP(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,451 INFO Mapped "{[/v1/ns/addIP4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.addIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,452 INFO Mapped "{[/v1/ns/srvAllIP]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.srvAllIP(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,452 INFO Mapped "{[/v1/ns/remvDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.remvDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,453 INFO Mapped "{[/v1/ns/updateSwitch]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.updateSwitch(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,453 INFO Mapped "{[/v1/ns/remvIP4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.remvIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,455 INFO Mapped "{[/v1/ns/checkStatus]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.checkStatus(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,456 INFO Mapped "{[/v1/ns/allDomNames]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.allDomNames(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,456 INFO Mapped "{[/v1/ns/addCluster4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.addCluster4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,457 INFO Mapped "{[/v1/ns/getAllChangeLog]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getAllChangeLog(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,458 INFO Mapped "{[/v1/ns/updateClusterConf]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.updateClusterConf(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+
+2020-01-12 07:48:55,458 INFO Mapped "{[/v1/ns/getWeightsByIP]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getWeightsByIP(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,459 INFO Mapped "{[/v1/ns/searchDom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.searchDom(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,459 INFO Mapped "{[/v1/ns/distroStatus]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.distroStatus(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,460 INFO Mapped "{[/v1/ns/hello]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.hello(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,460 INFO Mapped "{[/v1/ns/getDomString4MD5]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getDomString4MD5(javax.servlet.http.HttpServletRequest) throws com.alibaba.nacos.naming.exception.NacosException
+
+2020-01-12 07:48:55,461 INFO Mapped "{[/v1/ns/containerNotify]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.containerNotify(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,461 INFO Mapped "{[/v1/ns/responsible]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.responsible(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,462 INFO Mapped "{[/v1/ns/domServeStatus]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.domServeStatus(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,462 INFO Mapped "{[/v1/ns/serverStatus]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.serverStatus(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,463 INFO Mapped "{[/v1/ns/domStatus]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.domStatus(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,463 INFO Mapped "{[/v1/ns/switches]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.switches(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,465 INFO Mapped "{[/v1/ns/service],methods=[DELETE]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.ServiceController.remove(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,469 INFO Mapped "{[/v1/ns/service],methods=[POST]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.ServiceController.update(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,470 INFO Mapped "{[/v1/ns/service/list],methods=[GET]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.controllers.ServiceController.list(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,470 INFO Mapped "{[/v1/ns/service],methods=[PUT]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.ServiceController.create(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,471 INFO Mapped "{[/v1/ns/service],methods=[GET]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.controllers.ServiceController.detail(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,474 INFO Mapped "{[/v1/ns/api/metrics]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.metrics(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,475 INFO Mapped "{[/v1/ns/api/pushState]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.pushState(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,475 INFO Mapped "{[/v1/ns/api/getVersion]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getVersion(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+
+2020-01-12 07:48:55,476 INFO Mapped "{[/v1/ns/api/dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.dom(javax.servlet.http.HttpServletRequest) throws com.alibaba.nacos.naming.exception.NacosException
+
+2020-01-12 07:48:55,477 INFO Mapped "{[/v1/ns/api/reCalculateCheckSum4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.reCalculateCheckSum4Dom(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,477 INFO Mapped "{[/v1/ns/api/getResponsibleServer4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getResponsibleServer4Dom(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,478 INFO Mapped "{[/v1/ns/api/getHealthyServerList]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getHealthyServerList(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,478 INFO Mapped "{[/v1/ns/api/ip4Dom2]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.ip4Dom2(javax.servlet.http.HttpServletRequest) throws com.alibaba.nacos.naming.exception.NacosException
+
+2020-01-12 07:48:55,478 INFO Mapped "{[/v1/ns/api/regService]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.regService(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,479 INFO Mapped "{[/v1/ns/api/ip4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.ip4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,480 INFO Mapped "{[/v1/ns/api/deRegService]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.deRegService(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,480 INFO Mapped "{[/v1/ns/api/srvIPXT]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.srvIPXT(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,481 INFO Mapped "{[/v1/ns/api/domCount]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.domCount(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,481 INFO Mapped "{[/v1/ns/api/rt4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.rt4Dom(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,482 INFO Mapped "{[/v1/ns/api/regDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.regDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,482 INFO Mapped "{[/v1/ns/api/clientBeat]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.clientBeat(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,485 INFO Mapped "{[/v1/ns/api/updateDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.updateDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,486 INFO Mapped "{[/v1/ns/api/onAddIP4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.onAddIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,486 INFO Mapped "{[/v1/ns/api/getDomsByIP]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getDomsByIP(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,487 INFO Mapped "{[/v1/ns/api/addIP4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.addIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,487 INFO Mapped "{[/v1/ns/api/srvAllIP]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.srvAllIP(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,488 INFO Mapped "{[/v1/ns/api/remvDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.remvDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,488 INFO Mapped "{[/v1/ns/api/updateSwitch]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.updateSwitch(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,489 INFO Mapped "{[/v1/ns/api/remvIP4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.remvIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,489 INFO Mapped "{[/v1/ns/api/checkStatus]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.checkStatus(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,490 INFO Mapped "{[/v1/ns/api/allDomNames]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.allDomNames(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,490 INFO Mapped "{[/v1/ns/api/addCluster4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.addCluster4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,491 INFO Mapped "{[/v1/ns/api/getAllChangeLog]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getAllChangeLog(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,491 INFO Mapped "{[/v1/ns/api/updateClusterConf]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.updateClusterConf(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+
+2020-01-12 07:48:55,491 INFO Mapped "{[/v1/ns/api/getWeightsByIP]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getWeightsByIP(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,492 INFO Mapped "{[/v1/ns/api/searchDom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.searchDom(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,492 INFO Mapped "{[/v1/ns/api/distroStatus]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.distroStatus(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,493 INFO Mapped "{[/v1/ns/api/hello]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.hello(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,493 INFO Mapped "{[/v1/ns/api/getDomString4MD5]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getDomString4MD5(javax.servlet.http.HttpServletRequest) throws com.alibaba.nacos.naming.exception.NacosException
+
+2020-01-12 07:48:55,494 INFO Mapped "{[/v1/ns/api/containerNotify]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.containerNotify(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,496 INFO Mapped "{[/v1/ns/api/responsible]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.responsible(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,497 INFO Mapped "{[/v1/ns/api/domServeStatus]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.domServeStatus(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,497 INFO Mapped "{[/v1/ns/api/serverStatus]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.serverStatus(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,498 INFO Mapped "{[/v1/ns/api/domStatus]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.domStatus(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,498 INFO Mapped "{[/v1/ns/api/switches]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.switches(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,500 INFO Mapped "{[/v1/ns/raft/publish]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.publish(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2020-01-12 07:48:55,500 INFO Mapped "{[/v1/ns/raft/get]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.get(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2020-01-12 07:48:55,501 INFO Mapped "{[/v1/ns/raft/delete]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.delete(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2020-01-12 07:48:55,502 INFO Mapped "{[/v1/ns/raft/state]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.RaftCommands.state(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2020-01-12 07:48:55,502 INFO Mapped "{[/v1/ns/raft/beat]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.RaftCommands.beat(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2020-01-12 07:48:55,503 INFO Mapped "{[/v1/ns/raft/getLeader]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.RaftCommands.getLeader(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2020-01-12 07:48:55,503 INFO Mapped "{[/v1/ns/raft/onPublish]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.onPublish(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2020-01-12 07:48:55,504 INFO Mapped "{[/v1/ns/raft/vote]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.RaftCommands.vote(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2020-01-12 07:48:55,506 INFO Mapped "{[/v1/ns/raft/reloadDatum]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.reloadDatum(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2020-01-12 07:48:55,506 INFO Mapped "{[/v1/ns/raft/getPeer]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.RaftCommands.getPeer(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2020-01-12 07:48:55,507 INFO Mapped "{[/v1/ns/raft/unSafePublish]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.unSafePublish(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2020-01-12 07:48:55,507 INFO Mapped "{[/v1/ns/raft/onDelete]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.onDelete(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2020-01-12 07:48:55,508 INFO Mapped "{[/v1/ns/raft/getAllListeners]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.RaftCommands.getAllListeners(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2020-01-12 07:48:55,509 INFO Mapped "{[/v1/cmdb/ops/updateSwitch],methods=[POST]}" onto public java.lang.String com.alibaba.nacos.cmdb.controllers.OperationController.updateSwitch(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,509 INFO Mapped "{[/v1/cmdb/ops/queryLabel],methods=[GET]}" onto public java.lang.String com.alibaba.nacos.cmdb.controllers.OperationController.queryLabel(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2020-01-12 07:48:55,516 INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+
+2020-01-12 07:48:55,517 INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2020-01-12 07:48:55,538 INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+2020-01-12 07:48:55,538 INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+2020-01-12 07:48:55,551 INFO Detected @ExceptionHandler methods in globalExceptionHandler
+
+2020-01-12 07:48:55,551 INFO Detected @ExceptionHandler methods in responseExceptionHandler
+
+2020-01-12 07:48:55,578 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-01-12 07:48:55,675 INFO Registering beans for JMX exposure on startup
+
+2020-01-12 07:48:55,714 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-01-12 07:48:55,724 INFO Started Nacos in 5.005 seconds (JVM running for 5.402)
+
+2020-01-12 07:48:55,725 INFO Nacos Log files: E:\finshProject\spring-cloud-ext\nacos\/logs/
+
+2020-01-12 07:48:55,725 INFO Nacos Conf files: E:\finshProject\spring-cloud-ext\nacos\/conf/
+
+2020-01-12 07:48:55,725 INFO Nacos Data files: E:\finshProject\spring-cloud-ext\nacos\/data/
+
+2020-01-12 07:48:55,726 INFO Nacos started successfully in stand alone mode.
+
+2020-01-12 07:49:00,119 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+2020-01-12 07:49:00,120 INFO FrameworkServlet 'dispatcherServlet': initialization started
+
+2020-01-12 07:49:00,136 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+
+2020-01-12 07:58:54,542 INFO [capacityManagement] start correct usage
+
+2020-01-12 07:58:54,554 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 07:58:54,704 WARN clearConfigHistory start
+
+2020-01-12 08:08:54,555 INFO [capacityManagement] start correct usage
+
+2020-01-12 08:08:54,555 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 08:08:54,712 WARN clearConfigHistory start
+
+2020-01-12 08:18:54,556 INFO [capacityManagement] start correct usage
+
+2020-01-12 08:18:54,556 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 08:18:54,713 WARN clearConfigHistory start
+
+2020-01-12 08:28:54,557 INFO [capacityManagement] start correct usage
+
+2020-01-12 08:28:54,557 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 08:28:54,716 WARN clearConfigHistory start
+
+2020-01-12 08:38:54,559 INFO [capacityManagement] start correct usage
+
+2020-01-12 08:38:54,559 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 08:38:54,717 WARN clearConfigHistory start
+
+2020-01-12 08:48:54,562 INFO [capacityManagement] start correct usage
+
+2020-01-12 08:48:54,563 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 08:48:54,718 WARN clearConfigHistory start
+
+2020-01-12 08:58:54,564 INFO [capacityManagement] start correct usage
+
+2020-01-12 08:58:54,564 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 08:58:54,719 WARN clearConfigHistory start
+
+2020-01-12 09:08:54,566 INFO [capacityManagement] start correct usage
+
+2020-01-12 09:08:54,566 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 09:08:54,721 WARN clearConfigHistory start
+
+2020-01-12 09:18:54,567 INFO [capacityManagement] start correct usage
+
+2020-01-12 09:18:54,567 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 09:18:54,722 WARN clearConfigHistory start
+
+2020-01-12 09:28:54,568 INFO [capacityManagement] start correct usage
+
+2020-01-12 09:28:54,569 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 09:28:54,723 WARN clearConfigHistory start
+
+2020-01-12 09:38:54,570 INFO [capacityManagement] start correct usage
+
+2020-01-12 09:38:54,571 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 09:38:54,726 WARN clearConfigHistory start
+
+2020-01-12 09:48:54,572 INFO [capacityManagement] start correct usage
+
+2020-01-12 09:48:54,572 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 09:48:54,727 WARN clearConfigHistory start
+
+2020-01-12 09:58:54,573 INFO [capacityManagement] start correct usage
+
+2020-01-12 09:58:54,574 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 09:58:54,728 WARN clearConfigHistory start
+
+2020-01-12 18:08:55,042 INFO [capacityManagement] start correct usage
+
+2020-01-12 18:08:55,044 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 18:08:55,195 WARN clearConfigHistory start
+
+2020-01-12 18:18:55,045 INFO [capacityManagement] start correct usage
+
+2020-01-12 18:18:55,045 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 18:18:55,197 WARN clearConfigHistory start
+
+2020-01-12 18:28:55,045 INFO [capacityManagement] start correct usage
+
+2020-01-12 18:28:55,045 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 18:28:55,198 WARN clearConfigHistory start
+
+2020-01-12 18:38:55,046 INFO [capacityManagement] start correct usage
+
+2020-01-12 18:38:55,047 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 18:38:55,199 WARN clearConfigHistory start
+
+2020-01-12 18:48:55,048 INFO [capacityManagement] start correct usage
+
+2020-01-12 18:48:55,048 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 18:48:55,200 WARN clearConfigHistory start
+
+2020-01-12 18:58:55,049 INFO [capacityManagement] start correct usage
+
+2020-01-12 18:58:55,049 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 18:58:55,201 WARN clearConfigHistory start
+
+2020-01-12 19:08:55,050 INFO [capacityManagement] start correct usage
+
+2020-01-12 19:08:55,051 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 19:08:55,202 WARN clearConfigHistory start
+
+2020-01-12 19:18:55,052 INFO [capacityManagement] start correct usage
+
+2020-01-12 19:18:55,052 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 19:18:55,203 WARN clearConfigHistory start
+
+2020-01-12 19:28:55,053 INFO [capacityManagement] start correct usage
+
+2020-01-12 19:28:55,055 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 19:28:55,205 WARN clearConfigHistory start
+
+2020-01-12 19:38:55,056 INFO [capacityManagement] start correct usage
+
+2020-01-12 19:38:55,056 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 19:38:55,206 WARN clearConfigHistory start
+
+2020-01-12 19:48:55,058 INFO [capacityManagement] start correct usage
+
+2020-01-12 19:48:55,058 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 19:48:55,207 WARN clearConfigHistory start
+
+2020-01-12 19:58:55,060 INFO [capacityManagement] start correct usage
+
+2020-01-12 19:58:55,060 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 19:58:55,208 WARN clearConfigHistory start
+
+2020-01-12 20:08:55,061 INFO [capacityManagement] start correct usage
+
+2020-01-12 20:08:55,062 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 20:08:55,209 WARN clearConfigHistory start
+
+2020-01-12 20:18:55,063 INFO [capacityManagement] start correct usage
+
+2020-01-12 20:18:55,063 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 20:18:55,212 WARN clearConfigHistory start
+
+2020-01-12 20:28:55,064 INFO [capacityManagement] start correct usage
+
+2020-01-12 20:28:55,064 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 20:28:55,213 WARN clearConfigHistory start
+
+2020-01-12 20:38:55,064 INFO [capacityManagement] start correct usage
+
+2020-01-12 20:38:55,066 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 20:38:55,215 WARN clearConfigHistory start
+
+2020-01-12 20:48:55,068 INFO [capacityManagement] start correct usage
+
+2020-01-12 20:48:55,068 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 20:48:55,216 WARN clearConfigHistory start
+
+2020-01-12 20:58:55,069 INFO [capacityManagement] start correct usage
+
+2020-01-12 20:58:55,069 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 20:58:55,217 WARN clearConfigHistory start
+
+2020-01-12 21:08:55,071 INFO [capacityManagement] start correct usage
+
+2020-01-12 21:08:55,072 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 21:08:55,218 WARN clearConfigHistory start
+
+2020-01-12 21:18:55,074 INFO [capacityManagement] start correct usage
+
+2020-01-12 21:18:55,076 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 21:18:55,220 WARN clearConfigHistory start
+
+2020-01-12 21:28:55,077 INFO [capacityManagement] start correct usage
+
+2020-01-12 21:28:55,077 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 21:28:55,221 WARN clearConfigHistory start
+
+2020-01-12 21:38:55,078 INFO [capacityManagement] start correct usage
+
+2020-01-12 21:38:55,078 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 21:38:55,222 WARN clearConfigHistory start
+
+2020-01-12 21:48:55,079 INFO [capacityManagement] start correct usage
+
+2020-01-12 21:48:55,081 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 21:48:55,223 WARN clearConfigHistory start
+
+2020-01-12 21:58:55,081 INFO [capacityManagement] start correct usage
+
+2020-01-12 21:58:55,081 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 21:58:55,224 WARN clearConfigHistory start
+
+2020-01-12 22:08:55,083 INFO [capacityManagement] start correct usage
+
+2020-01-12 22:08:55,084 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 22:08:55,226 WARN clearConfigHistory start
+
+2020-01-12 22:18:55,085 INFO [capacityManagement] start correct usage
+
+2020-01-12 22:18:55,086 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 22:18:55,227 WARN clearConfigHistory start
+
+2020-01-12 22:28:55,087 INFO [capacityManagement] start correct usage
+
+2020-01-12 22:28:55,089 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 22:28:55,229 WARN clearConfigHistory start
+
+2020-01-12 22:38:55,090 INFO [capacityManagement] start correct usage
+
+2020-01-12 22:38:55,090 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 22:38:55,230 WARN clearConfigHistory start
+
+2020-01-12 22:48:55,091 INFO [capacityManagement] start correct usage
+
+2020-01-12 22:48:55,091 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 22:48:55,231 WARN clearConfigHistory start
+
+2020-01-12 22:58:55,092 INFO [capacityManagement] start correct usage
+
+2020-01-12 22:58:55,094 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 22:58:55,232 WARN clearConfigHistory start
+
+2020-01-12 23:08:55,095 INFO [capacityManagement] start correct usage
+
+2020-01-12 23:08:55,095 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 23:08:55,233 WARN clearConfigHistory start
+
+2020-01-12 23:18:55,097 INFO [capacityManagement] start correct usage
+
+2020-01-12 23:18:55,098 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 23:18:55,235 WARN clearConfigHistory start
+
+2020-01-12 23:28:55,099 INFO [capacityManagement] start correct usage
+
+2020-01-12 23:28:55,099 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 23:28:55,237 WARN clearConfigHistory start
+
+2020-01-12 23:38:55,100 INFO [capacityManagement] start correct usage
+
+2020-01-12 23:38:55,101 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 23:38:55,238 WARN clearConfigHistory start
+
+2020-01-12 23:48:55,103 INFO [capacityManagement] start correct usage
+
+2020-01-12 23:48:55,103 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 23:48:55,240 WARN clearConfigHistory start
+
+2020-01-12 23:58:55,105 INFO [capacityManagement] start correct usage
+
+2020-01-12 23:58:55,105 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-01-12 23:58:55,241 WARN clearConfigHistory start
+

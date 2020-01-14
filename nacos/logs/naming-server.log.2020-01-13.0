@@ -1,0 +1,188 @@
+2020-01-13 00:04:23,744 INFO [HEALTH-CHECK] health check is true
+
+2020-01-13 00:09:23,745 INFO [HEALTH-CHECK] health check is true
+
+2020-01-13 00:13:23,019 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:13:27,790 WARN protect threshold reached, return all ips, dom: nacos-provider
+
+2020-01-13 00:13:28,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:13:28,497 WARN protect threshold reached, return all ips, dom: nacos-provider
+
+2020-01-13 00:13:33,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:13:35,706 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:13:38,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:13:38,500 WARN protect threshold reached, return all ips, dom: nacos-provider
+
+2020-01-13 00:13:40,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:13:41,790 INFO [AUTO-DELETE-IP] dom: nacos-provider, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.123.17#8849#DEFAULT#nacos-provider","ip":"192.168.123.17","lastBeat":1578845589124,"marked":false,"metadata":{},"port":8849,"serviceName":"nacos-provider","tenant":"","valid":false,"weight":1}
+
+2020-01-13 00:13:43,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:13:45,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:13:48,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:13:50,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:13:53,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:13:55,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:13:58,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:00,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:03,016 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:05,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:08,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:10,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:13,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:15,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:18,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:20,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:23,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:23,745 INFO [HEALTH-CHECK] health check is true
+
+2020-01-13 00:14:25,704 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:28,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:30,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:33,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:35,701 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:38,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:40,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:43,016 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:45,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:48,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:50,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:53,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:55,701 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:14:58,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:00,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:03,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:05,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:08,016 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:10,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:13,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:15,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:18,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:20,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:23,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:25,701 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:28,017 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:30,701 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:33,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:35,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:38,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:40,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:43,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:45,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:48,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:50,704 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:53,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:55,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:15:58,016 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:00,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:03,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:05,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:08,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:10,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:13,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:15,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:18,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:20,704 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:23,015 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:25,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:28,016 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:30,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:31,642 INFO [RESET-WEIGHT] false
+
+2020-01-13 00:16:31,648 INFO [NEW-DOM-raft] {"checksum":"5965b6c6d4377eac5438e9c253c06510","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":3388,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578845791648},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578845791642,"metadata":{},"name":"nacos-consumers","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"06a0570178c9478d74b24b74a0692e1e","useSpecifiedURL":false}
+
+2020-01-13 00:16:31,648 WARN [VIPSRV-DOM] received empty iplist config for dom: nacos-consumers
+
+2020-01-13 00:16:33,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:35,702 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:36,583 WARN ip not found, register it, dom:nacos-consumers, ip:192.168.43.191:8851:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:38,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:40,703 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:41,579 WARN ip not found, register it, dom:nacos-consumers, ip:192.168.43.191:8851:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:43,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:45,701 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:46,580 WARN ip not found, register it, dom:nacos-consumers, ip:192.168.43.191:8851:unknown_1.0_true_false_DEFAULT
+
+2020-01-13 00:16:48,014 WARN ip not found, register it, dom:nacos-provider, ip:192.168.43.191:8849:unknown_1.0_true_false_DEFAULT
+

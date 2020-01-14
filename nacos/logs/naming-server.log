@@ -1,0 +1,446 @@
+2020-01-14 00:06:51,221 INFO [VIPSRV-DISTRO] healthy server list changed, disable health check for 60000ms from now on, healthList: [],newHealthyList [192.168.43.191:0]
+
+2020-01-14 00:06:53,588 INFO [SERVER-INIT] got port:8848
+
+2020-01-14 00:06:53,588 INFO [SERVER-INIT] got path:/nacos
+
+2020-01-14 00:06:53,665 INFO [NEW-DOM-raft] {"checksum":"5965b6c6d4377eac5438e9c253c06510","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":6880,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578931613640},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578845791642,"metadata":{},"name":"nacos-consumers","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"06a0570178c9478d74b24b74a0692e1e","useSpecifiedURL":false}
+
+2020-01-14 00:06:53,666 INFO [NEW-DOM-raft] {"checksum":"7c8c551a908ae6e2f6a745c63f691cd","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":3412,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578931613666},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578827589763,"metadata":{},"name":"nacos-provider","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"eeae0355a70fd058eb8f2455b6b540c0","useSpecifiedURL":false}
+
+2020-01-14 00:06:56,284 INFO [AUTO-INIT] leader is: 192.168.43.191:8848
+
+2020-01-14 00:06:57,583 INFO [REFRESH-SERVER-SITE] server list is changed, old: [], new: [192.168.43.191:8848]
+
+2020-01-14 00:07:21,290 INFO [HEALTH-CHECK] health check is false
+
+2020-01-14 00:07:38,002 INFO [RESET-WEIGHT] false
+
+2020-01-14 00:07:38,011 INFO [NEW-DOM-raft] {"checksum":"a3647e34bbe92e189e9676c9f23c0143","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":2796,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578931658011},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578931658002,"metadata":{},"name":"nacos-consumer-feign","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"707e8bdbe855b373aff5d7d2ddbc9b97","useSpecifiedURL":false}
+
+2020-01-14 00:07:38,015 WARN [VIPSRV-DOM] received empty iplist config for dom: nacos-consumer-feign
+
+2020-01-14 00:07:51,282 INFO [VIPSRV-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2020-01-14 00:07:51,282 INFO [VIPSRV-DISTRO] healthy server list changed, disable health check for 60000ms from now on
+
+2020-01-14 00:08:51,287 INFO [VIPSRV-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2020-01-14 00:10:15,331 WARN [VIPSRV-DOM] received empty iplist config for dom: nacos-provider
+
+2020-01-14 00:12:21,291 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 00:17:21,291 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 00:22:21,292 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 00:27:21,293 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 00:32:21,293 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 00:32:38,875 INFO [AUTO-DELETE-IP] dom: nacos-provider, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.43.191#8850#DEFAULT#nacos-provider","ip":"192.168.43.191","lastBeat":1578933128057,"marked":false,"metadata":{},"port":8850,"serviceName":"nacos-provider","tenant":"","valid":false,"weight":1}
+
+2020-01-14 00:35:33,915 INFO [AUTO-DELETE-IP] dom: nacos-provider, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.43.191#8850#DEFAULT#nacos-provider","ip":"192.168.43.191","lastBeat":1578933303757,"marked":false,"metadata":{},"port":8850,"serviceName":"nacos-provider","tenant":"","valid":false,"weight":1}
+
+2020-01-14 00:36:43,925 INFO [AUTO-DELETE-IP] dom: nacos-provider, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.43.191#8850#DEFAULT#nacos-provider","ip":"192.168.43.191","lastBeat":1578933373769,"marked":false,"metadata":{},"port":8850,"serviceName":"nacos-provider","tenant":"","valid":false,"weight":1}
+
+2020-01-14 00:37:21,294 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 00:42:21,294 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 00:43:27,488 INFO [RESET-WEIGHT] false
+
+2020-01-14 00:43:27,494 INFO [NEW-DOM-raft] {"checksum":"ce4c97d962298fe93a9b7d7aa6b08eb6","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":2245,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578933807494},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578933807488,"metadata":{},"name":"spring-gateway","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"d7482072355685377a9639e3e4b514f4","useSpecifiedURL":false}
+
+2020-01-14 00:43:27,494 WARN [VIPSRV-DOM] received empty iplist config for dom: spring-gateway
+
+2020-01-14 00:47:21,295 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 00:52:21,295 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 13:09:01,750 INFO [VIPSRV-DISTRO] healthy server list changed, disable health check for 60000ms from now on, healthList: [],newHealthyList [192.168.123.17:0]
+
+2020-01-14 13:09:04,204 INFO [SERVER-INIT] got port:8848
+
+2020-01-14 13:09:04,204 INFO [SERVER-INIT] got path:/nacos
+
+2020-01-14 13:09:04,287 INFO [NEW-DOM-raft] {"checksum":"a3647e34bbe92e189e9676c9f23c0143","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":4128,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578978544261},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578931658002,"metadata":{},"name":"nacos-consumer-feign","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"707e8bdbe855b373aff5d7d2ddbc9b97","useSpecifiedURL":false}
+
+2020-01-14 13:09:04,288 INFO [NEW-DOM-raft] {"checksum":"5965b6c6d4377eac5438e9c253c06510","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":6910,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578978544288},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578845791642,"metadata":{},"name":"nacos-consumers","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"06a0570178c9478d74b24b74a0692e1e","useSpecifiedURL":false}
+
+2020-01-14 13:09:04,289 INFO [NEW-DOM-raft] {"checksum":"7c8c551a908ae6e2f6a745c63f691cd","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":5672,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578978544289},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578827589763,"metadata":{},"name":"nacos-provider","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"eeae0355a70fd058eb8f2455b6b540c0","useSpecifiedURL":false}
+
+2020-01-14 13:09:04,290 INFO [NEW-DOM-raft] {"checksum":"ce4c97d962298fe93a9b7d7aa6b08eb6","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":3598,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578978544290},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578933807488,"metadata":{},"name":"spring-gateway","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"d7482072355685377a9639e3e4b514f4","useSpecifiedURL":false}
+
+2020-01-14 13:09:06,816 INFO [AUTO-INIT] leader is: 192.168.123.17:8848
+
+2020-01-14 13:09:08,393 INFO [REFRESH-SERVER-SITE] server list is changed, old: [], new: [192.168.123.17:8848]
+
+2020-01-14 13:09:31,824 INFO [HEALTH-CHECK] health check is false
+
+2020-01-14 13:10:01,815 INFO [VIPSRV-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2020-01-14 13:10:01,815 INFO [VIPSRV-DISTRO] healthy server list changed, disable health check for 60000ms from now on
+
+2020-01-14 13:11:01,819 INFO [VIPSRV-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2020-01-14 13:13:04,195 INFO [VIPSRV-DISTRO] healthy server list changed, disable health check for 60000ms from now on, healthList: [],newHealthyList [192.168.123.17:0]
+
+2020-01-14 13:13:06,444 INFO [SERVER-INIT] got port:8848
+
+2020-01-14 13:13:06,444 INFO [SERVER-INIT] got path:/nacos
+
+2020-01-14 13:13:06,523 INFO [NEW-DOM-raft] {"checksum":"a3647e34bbe92e189e9676c9f23c0143","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":4077,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578978786498},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578931658002,"metadata":{},"name":"nacos-consumer-feign","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"707e8bdbe855b373aff5d7d2ddbc9b97","useSpecifiedURL":false}
+
+2020-01-14 13:13:06,524 INFO [NEW-DOM-raft] {"checksum":"5965b6c6d4377eac5438e9c253c06510","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":4168,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578978786524},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578845791642,"metadata":{},"name":"nacos-consumers","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"06a0570178c9478d74b24b74a0692e1e","useSpecifiedURL":false}
+
+2020-01-14 13:13:06,526 INFO [NEW-DOM-raft] {"checksum":"7c8c551a908ae6e2f6a745c63f691cd","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":2968,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578978786525},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578827589763,"metadata":{},"name":"nacos-provider","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"eeae0355a70fd058eb8f2455b6b540c0","useSpecifiedURL":false}
+
+2020-01-14 13:13:06,527 INFO [NEW-DOM-raft] {"checksum":"ce4c97d962298fe93a9b7d7aa6b08eb6","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":3645,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578978786527},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578933807488,"metadata":{},"name":"spring-gateway","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"d7482072355685377a9639e3e4b514f4","useSpecifiedURL":false}
+
+2020-01-14 13:13:09,270 INFO [AUTO-INIT] leader is: 192.168.123.17:8848
+
+2020-01-14 13:13:09,997 INFO [REFRESH-SERVER-SITE] server list is changed, old: [], new: [192.168.123.17:8848]
+
+2020-01-14 13:13:34,273 INFO [HEALTH-CHECK] health check is false
+
+2020-01-14 13:14:04,268 INFO [VIPSRV-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2020-01-14 13:14:04,268 INFO [VIPSRV-DISTRO] healthy server list changed, disable health check for 60000ms from now on
+
+2020-01-14 13:14:15,622 WARN [VIPSRV-DOM] received empty iplist config for dom: nacos-consumer-feign
+
+2020-01-14 13:14:24,489 WARN [VIPSRV-DOM] received empty iplist config for dom: nacos-provider
+
+2020-01-14 13:15:04,273 INFO [VIPSRV-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2020-01-14 13:15:28,878 WARN [VIPSRV-DOM] received empty iplist config for dom: spring-gateway
+
+2020-01-14 13:18:34,274 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 13:23:34,275 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 13:28:34,276 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 13:33:34,276 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 13:38:34,277 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 13:39:27,372 INFO [DEAD-DOM] {"checksum":"5965b6c6d4377eac5438e9c253c06510","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":true,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":4168,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578980366520},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578845791642,"metadata":{},"name":"nacos-consumers","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"06a0570178c9478d74b24b74a0692e1e","useSpecifiedURL":false}
+
+2020-01-14 13:40:00,446 INFO [VIPSRV-DISTRO] healthy server list changed, disable health check for 60000ms from now on, healthList: [],newHealthyList [192.168.123.17:0]
+
+2020-01-14 13:40:02,704 INFO [SERVER-INIT] got port:8848
+
+2020-01-14 13:40:02,705 INFO [SERVER-INIT] got path:/nacos
+
+2020-01-14 13:40:02,776 INFO [NEW-DOM-raft] {"checksum":"a3647e34bbe92e189e9676c9f23c0143","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":4516,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578980402754},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578931658002,"metadata":{},"name":"nacos-consumer-feign","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"707e8bdbe855b373aff5d7d2ddbc9b97","useSpecifiedURL":false}
+
+2020-01-14 13:40:02,778 INFO [NEW-DOM-raft] {"checksum":"7c8c551a908ae6e2f6a745c63f691cd","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":2027,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578980402777},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578827589763,"metadata":{},"name":"nacos-provider","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"eeae0355a70fd058eb8f2455b6b540c0","useSpecifiedURL":false}
+
+2020-01-14 13:40:02,779 INFO [NEW-DOM-raft] {"checksum":"ce4c97d962298fe93a9b7d7aa6b08eb6","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":2186,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578980402778},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578933807488,"metadata":{},"name":"spring-gateway","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"d7482072355685377a9639e3e4b514f4","useSpecifiedURL":false}
+
+2020-01-14 13:40:03,848 WARN [VIPSRV-DOM] received empty iplist config for dom: spring-gateway
+
+2020-01-14 13:40:03,848 WARN ip not found, register it, dom:spring-gateway, ip:192.168.123.17:80:unknown_1.0_true_false_DEFAULT
+
+2020-01-14 13:40:04,168 WARN [VIPSRV-DOM] received empty iplist config for dom: nacos-provider
+
+2020-01-14 13:40:04,168 WARN ip not found, register it, dom:nacos-provider, ip:192.168.123.17:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-14 13:40:04,393 WARN ip not found, register it, dom:nacos-provider, ip:192.168.123.17:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-14 13:40:05,308 INFO [REFRESH-SERVER-SITE] server list is changed, old: [], new: [192.168.123.17:8848]
+
+2020-01-14 13:40:05,459 WARN [VIPSRV-DOM] received empty iplist config for dom: nacos-consumer-feign
+
+2020-01-14 13:40:05,459 WARN ip not found, register it, dom:nacos-consumer-feign, ip:192.168.123.17:9092:unknown_1.0_true_false_DEFAULT
+
+2020-01-14 13:40:05,507 INFO [AUTO-INIT] leader is: 192.168.123.17:8848
+
+2020-01-14 13:40:30,507 INFO [HEALTH-CHECK] health check is false
+
+2020-01-14 13:41:00,506 INFO [VIPSRV-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2020-01-14 13:41:00,506 INFO [VIPSRV-DISTRO] healthy server list changed, disable health check for 60000ms from now on
+
+2020-01-14 13:41:24,619 INFO [RESET-WEIGHT] false
+
+2020-01-14 13:41:24,626 INFO [NEW-DOM-raft] {"checksum":"5965b6c6d4377eac5438e9c253c06510","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":6621,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578980484626},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578980484619,"metadata":{},"name":"nacos-consumers","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"06a0570178c9478d74b24b74a0692e1e","useSpecifiedURL":false}
+
+2020-01-14 13:41:24,626 WARN [VIPSRV-DOM] received empty iplist config for dom: nacos-consumers
+
+2020-01-14 13:42:00,510 INFO [VIPSRV-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2020-01-14 13:43:25,260 INFO [VIPSRV-DISTRO] healthy server list changed, disable health check for 60000ms from now on, healthList: [],newHealthyList [192.168.123.17:0]
+
+2020-01-14 13:43:27,669 INFO [SERVER-INIT] got port:8848
+
+2020-01-14 13:43:27,669 INFO [SERVER-INIT] got path:/nacos
+
+2020-01-14 13:43:27,754 INFO [NEW-DOM-raft] {"checksum":"a3647e34bbe92e189e9676c9f23c0143","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":5177,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578980607729},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578931658002,"metadata":{},"name":"nacos-consumer-feign","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"707e8bdbe855b373aff5d7d2ddbc9b97","useSpecifiedURL":false}
+
+2020-01-14 13:43:27,756 INFO [NEW-DOM-raft] {"checksum":"5965b6c6d4377eac5438e9c253c06510","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":3028,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578980607755},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578980484619,"metadata":{},"name":"nacos-consumers","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"06a0570178c9478d74b24b74a0692e1e","useSpecifiedURL":false}
+
+2020-01-14 13:43:27,757 INFO [NEW-DOM-raft] {"checksum":"7c8c551a908ae6e2f6a745c63f691cd","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":2967,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578980607757},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578827589763,"metadata":{},"name":"nacos-provider","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"eeae0355a70fd058eb8f2455b6b540c0","useSpecifiedURL":false}
+
+2020-01-14 13:43:27,758 INFO [NEW-DOM-raft] {"checksum":"ce4c97d962298fe93a9b7d7aa6b08eb6","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":3360,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1578980607757},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":true,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1578933807488,"metadata":{},"name":"spring-gateway","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"d7482072355685377a9639e3e4b514f4","useSpecifiedURL":false}
+
+2020-01-14 13:43:28,852 WARN [VIPSRV-DOM] received empty iplist config for dom: spring-gateway
+
+2020-01-14 13:43:28,853 WARN ip not found, register it, dom:spring-gateway, ip:192.168.123.17:80:unknown_1.0_true_false_DEFAULT
+
+2020-01-14 13:43:29,168 WARN [VIPSRV-DOM] received empty iplist config for dom: nacos-provider
+
+2020-01-14 13:43:29,169 WARN ip not found, register it, dom:nacos-provider, ip:192.168.123.17:8850:unknown_1.0_true_false_DEFAULT
+
+2020-01-14 13:43:29,395 WARN ip not found, register it, dom:nacos-provider, ip:192.168.123.17:8849:unknown_1.0_true_false_DEFAULT
+
+2020-01-14 13:43:29,551 WARN [VIPSRV-DOM] received empty iplist config for dom: nacos-consumers
+
+2020-01-14 13:43:29,551 WARN ip not found, register it, dom:nacos-consumers, ip:192.168.123.17:8851:unknown_1.0_true_false_DEFAULT
+
+2020-01-14 13:43:30,322 INFO [AUTO-INIT] leader is: 192.168.123.17:8848
+
+2020-01-14 13:43:30,459 WARN [VIPSRV-DOM] received empty iplist config for dom: nacos-consumer-feign
+
+2020-01-14 13:43:30,459 WARN ip not found, register it, dom:nacos-consumer-feign, ip:192.168.123.17:9092:unknown_1.0_true_false_DEFAULT
+
+2020-01-14 13:43:31,228 INFO [REFRESH-SERVER-SITE] server list is changed, old: [], new: [192.168.123.17:8848]
+
+2020-01-14 13:43:55,320 INFO [HEALTH-CHECK] health check is false
+
+2020-01-14 13:44:25,320 INFO [VIPSRV-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2020-01-14 13:44:25,320 INFO [VIPSRV-DISTRO] healthy server list changed, disable health check for 60000ms from now on
+
+2020-01-14 13:45:25,324 INFO [VIPSRV-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2020-01-14 13:48:55,321 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 13:53:55,321 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 13:58:55,323 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 14:03:55,325 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 14:07:58,661 WARN protect threshold reached, return all ips, dom: nacos-consumer-feign
+
+2020-01-14 14:07:58,862 WARN protect threshold reached, return all ips, dom: nacos-consumer-feign
+
+2020-01-14 14:08:08,665 WARN protect threshold reached, return all ips, dom: nacos-consumer-feign
+
+2020-01-14 14:08:12,863 INFO [AUTO-DELETE-IP] dom: nacos-consumer-feign, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.123.17#9092#DEFAULT#nacos-consumer-feign","ip":"192.168.123.17","lastBeat":1578982060459,"marked":false,"metadata":{},"port":9092,"serviceName":"nacos-consumer-feign","tenant":"","valid":false,"weight":1}
+
+2020-01-14 14:08:55,326 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 14:13:55,326 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 14:18:55,326 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 14:23:55,327 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 14:28:55,327 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 14:33:55,328 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 14:38:55,329 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 14:43:55,331 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 14:48:55,331 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 14:53:55,331 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 14:58:55,332 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 15:03:55,332 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 15:08:55,332 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 15:13:55,332 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 15:18:55,333 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 15:23:55,333 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 15:28:55,334 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 15:33:55,334 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 15:38:55,334 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 15:43:55,335 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 15:48:55,336 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 15:53:55,337 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 15:58:55,337 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 16:03:55,337 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 16:08:55,338 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 16:13:55,338 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 16:18:55,339 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 16:23:55,340 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 16:28:55,341 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 16:33:55,342 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 16:38:55,342 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 16:43:55,342 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 16:48:55,343 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 16:53:55,343 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 16:58:55,345 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 17:03:55,345 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 17:08:55,346 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 17:13:55,347 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 17:18:55,347 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 17:23:55,348 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 17:28:55,349 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 17:33:55,349 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 17:38:55,350 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 17:43:55,351 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 17:48:55,352 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 17:53:55,352 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 17:58:55,352 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 18:03:55,353 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 18:08:55,354 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 18:13:55,354 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 18:18:55,355 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 18:23:55,355 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 18:28:55,356 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 18:33:55,356 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 18:38:55,357 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 18:43:55,357 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 18:48:55,358 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 18:53:55,358 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 18:58:55,358 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 19:03:55,359 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 19:08:55,360 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 19:13:55,361 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 19:18:55,361 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 19:23:55,362 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 19:28:55,362 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 19:33:55,362 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 19:38:55,363 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 19:43:55,364 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 19:48:55,364 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 19:53:55,365 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 19:58:55,366 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 20:03:55,367 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 20:08:55,367 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 20:13:55,368 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 20:18:55,368 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 20:23:14,930 INFO [AUTO-DELETE-IP] dom: nacos-consumers, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.123.17#8851#DEFAULT#nacos-consumers","ip":"192.168.123.17","lastBeat":1579004564549,"marked":false,"metadata":{},"port":8851,"serviceName":"nacos-consumers","tenant":"","valid":false,"weight":1}
+
+2020-01-14 20:23:19,930 INFO [AUTO-DELETE-IP] dom: nacos-provider, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.123.17#8849#DEFAULT#nacos-provider","ip":"192.168.123.17","lastBeat":1579004569468,"marked":false,"metadata":{},"port":8849,"serviceName":"nacos-provider","tenant":"","valid":false,"weight":1}
+
+2020-01-14 20:23:19,933 INFO [AUTO-DELETE-IP] dom: nacos-provider, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.123.17#8850#DEFAULT#nacos-provider","ip":"192.168.123.17","lastBeat":1579004568993,"marked":false,"metadata":{},"port":8850,"serviceName":"nacos-provider","tenant":"","valid":false,"weight":1}
+
+2020-01-14 20:23:24,592 INFO [AUTO-DELETE-IP] dom: nacos-consumer-feign, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.123.17#9093#DEFAULT#nacos-consumer-feign","ip":"192.168.123.17","lastBeat":1579004572851,"marked":false,"metadata":{},"port":9093,"serviceName":"nacos-consumer-feign","tenant":"","valid":false,"weight":1}
+
+2020-01-14 20:23:29,930 INFO [AUTO-DELETE-IP] dom: spring-gateway, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.123.17#80#DEFAULT#spring-gateway","ip":"192.168.123.17","lastBeat":1579004579189,"marked":false,"metadata":{},"port":80,"serviceName":"spring-gateway","tenant":"","valid":false,"weight":1}
+
+2020-01-14 20:23:55,369 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 20:28:55,370 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 20:33:55,370 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 20:38:55,371 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 20:43:55,371 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 20:48:55,372 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 20:53:55,373 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 20:58:55,373 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 21:03:55,374 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 21:08:55,375 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 21:13:55,375 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 21:18:55,375 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 21:23:55,376 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 21:28:55,377 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 21:33:55,377 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 21:38:55,378 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 21:43:55,379 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 21:48:55,379 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 21:53:55,380 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 21:58:55,381 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 22:03:55,382 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 22:08:55,382 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 22:13:55,382 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 22:18:55,384 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 22:23:55,384 INFO [HEALTH-CHECK] health check is true
+
+2020-01-14 22:28:55,385 INFO [HEALTH-CHECK] health check is true
+
